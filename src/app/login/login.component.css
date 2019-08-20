@@ -1,0 +1,57 @@
+.topbar{
+    background: blue;
+    padding: 15px;
+    
+  }
+
+.box{
+    border: 1px lightsalmon;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    background: lightsalmon;
+    
+
+}
+.row{
+    text-align: center;
+    padding-top: 50px;
+
+}
+input[type="text"],[type="password"]{
+    padding: 15px;
+    border-radius: 10px;
+   
+}
+div.btn{
+    text-align: center;
+    padding: 30px;
+}
+button{
+    background: blue;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.rst{
+   
+    padding-right: 20px;
+    padding-top: 30px;
+    
+}
+.rst a{
+    cursor: pointer;
+}
+button.reset{
+    background: greenyellow;
+    width: 80px;
+    float: right;
+    
+
+   
+}
+div.txt{
+    text-align: left;
+}

@@ -1,0 +1,31 @@
+<div class="topbar">
+    <h2 style="color: white; text-align: center">My Page</h2>
+
+</div>
+
+<div style="text-align: center; color: red; padding-top: 5px" *ngIf="msg">
+        <h1>{{msgBody}}</h1>
+ </div>
+<div style="padding-top: 50px">
+    <div class="box">
+        <div class="row">
+            <input type="text" placeholder="username.." [(ngModel)]="username">
+        </div>
+        <div class="row">
+            <input type="password" placeholder="password.."[(ngModel)] ="password">
+        </div>
+    
+        <div class="btn">
+            <button (click)=check()>Login</button>
+        </div>
+       <div class="rst">
+           <a style="padding-left: 10px ; padding-top: 50px; color: blue" (click)=goToPage()>Not yet account?Signup</a>
+           <button class="reset" (click)="reset()">Reset</button>
+       </div>
+           
+    
+    </div>
+</div>
+
+
+

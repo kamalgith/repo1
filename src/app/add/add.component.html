@@ -1,0 +1,27 @@
+<div class="topbar">
+      <h2 style="color: white; text-align: center">Add Item
+            <button (click)=logout() style="float: right; color: white;
+            background: blue;font-size: 15px;">Log Out</button>
+      
+      </h2>
+</div>
+<div style="padding-top: 50px">
+
+      <div class="bg">
+    
+            <div class="topnav">
+                 <a class="active" style="width:250px">Add</a>
+                 
+                 <a  (click)=goToPage() style="width:250px">View</a>
+            </div>
+         
+           <div class="item">
+                 <input type="text" placeholder="Add Items Here..." [(ngModel)]="item">     
+           </div>
+           <div class="btn">
+                 <button (click)=check()>Add</button>
+            </div>
+         
+         </div>
+</div>
+

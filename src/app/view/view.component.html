@@ -1,0 +1,33 @@
+
+<div class="topbar">
+        <h2 style="color: white; text-align: center">Item List
+                <button (click)=logout() style="float: right; color: white;
+                background: blue;font-size: 15px;">Log Out</button>
+        
+        </h2>
+       
+  </div>
+<div style="padding-top: 50px">
+<div class="bg">
+    
+        <div class="topnav">
+                <a  (click)=goToPage() style="width:250px" >Add</a>
+                
+                <a class="active"  style="width:250px">View</a>
+         </div>
+
+         <div class="output"*ngFor ="let i of arr">
+                       
+                 <h3>
+                     {{i.item}}
+                 </h3>
+                 <button style="width:80px; " (click)=deleteItem(i.item)>Delete</button>
+                
+         </div>
+
+        
+ </div>
+
+
+</div>
+        
